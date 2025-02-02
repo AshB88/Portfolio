@@ -1,0 +1,6 @@
+.about {
+    display: flex;
+    margin-left: 20px;
+    color: var(--light);
+    background-color: var(--primary);
+}

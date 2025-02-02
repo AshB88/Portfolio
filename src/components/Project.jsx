@@ -1,11 +1,14 @@
 import React from 'react';
+import { VscGithubInverted } from "react-icons/vsc";
 
-const Project = ({ title, description, link }) => {
+const Project = ({ title, link, gitHubLink }) => {
   return (
     <div className="project">
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>
+      <div>
+        <h3>{title}</h3>
+      </div>
+      {/*<a href={link}></a>*/}
+      {<a href={gitHubLink}><VscGithubInverted /></a>}
     </div>
   );
 };
