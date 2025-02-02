@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-// import 'bootstrap/dist/css/bootstrap.min.css'
+//import 'bootstrap/dist/css/bootstrap.min.css'
 
 import App from './App'
-import './index.css'
+//import './index.css'
 import ErrorPage from './pages/Error';
 import About from './pages/About';
 import Contact from './pages/Contact';
